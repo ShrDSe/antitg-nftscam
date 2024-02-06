@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import re, requests
 from pyrogram import Client, filters
 from config import API_ID, API_HASH, BOT_TOKEN
@@ -24,4 +22,3 @@ async def check_link(client, message):
                 break
 
 bot.run()
->>>>>>> a8040c1 (huh)
